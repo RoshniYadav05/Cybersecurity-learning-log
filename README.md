@@ -1,7 +1,7 @@
 ## 📌 Cybersecurity Learning Log
 
 ## Author: Roshni Yadav
-Focus: Networking, System Security & Defensive Cybersecurity
+Focus: Networking, System Security & Defensive Cybersecurity   
 Status: Actively Learning & Updating Weekly
 
 ## 🔍 About This Repository
