@@ -8,10 +8,10 @@ Status: Actively Learning & Updating Weekly
 
 This repository is my personal workspace where I document my cybersecurity and networking learning as it happens — through written logs and short video walkthroughs.
 
-Rather than simply saving notes, I focus on thinking like a security analyst — understanding how systems operate, where risks emerge, and how defenders observe, detect, and respond to activity in real-world environments.
+Instead of only writing notes, I focus on learning how different parts of a system work together, where common security concerns appear, and how basic monitoring and troubleshooting are done in real settings.
 
-Each entry reflects my effort to bridge technical theory with practical security thinking, using both documentation and video explanations to mirror how professional security teams record investigations, system behavior, and lessons learned in operational settings.
-
+Each entry combines clear explanations with practical examples, using written logs and short video walkthroughs to show how these concepts are used in day-to-day security and IT work.    
+  
 ## 🎯 Learning Objectives
 
 Build a strong foundation in networking and security architecture
