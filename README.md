@@ -28,5 +28,6 @@ This repository helps me stay accountable, track my progress, and connect with o
 
 ## 🎥 Video Learning blog
 This repository includes short video walkthroughs where I explain each topic from Networking, Cybersecurity, tools and labs.
+  
+YouTube — CyberWithRoshni
 
-All videos are linked below:
