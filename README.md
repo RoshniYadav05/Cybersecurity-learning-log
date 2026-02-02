@@ -30,4 +30,4 @@ This repository helps me stay accountable, track my progress, and connect with o
 This repository includes short video walkthroughs where I explain each topic from Networking, Cybersecurity, tools and labs.
   
 YouTube — CyberWithRoshni
-
+Link: https://www.youtube.com/@Roshni-in-cyber
