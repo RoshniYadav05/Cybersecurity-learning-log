@@ -56,7 +56,7 @@ What stood out to me the most was how each layer depends on the one below it —
 
 This learning log includes a short video walkthrough where I explain the OSI Model in my own words and connect each layer to real-world networking and security concepts.
 
-🎥 ## YouTube Video
+🎥 ##YouTube Video
 
 ▶ ## Watch here: https://www.youtube.com/watch?v=Nbda3lVtRro
 
