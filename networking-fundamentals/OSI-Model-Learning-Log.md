@@ -52,13 +52,19 @@ At the receiver’s end, the same process happens in reverse through all seven l
 
 What stood out to me the most was how each layer depends on the one below it — just like in cybersecurity, where one weak point can affect the entire system.
 
-I’m also documenting 📒 my learning journey on LinkedIn & youtube, including a video where I explain the OSI Model in my own words and break down how I truly understood it.
+🔗 ## Learning Resources & Links
 
-🎥 YouTube Video  
-▶ Watch here: https://www.youtube.com/watch?v=Nbda3lVtRro
+This learning log includes a short video walkthrough where I explain the OSI Model in my own words and connect each layer to real-world networking and security concepts.
 
-🔗 LinkedIn Post  
-▶ View post: [OSI Model — LinkedIn Learning Log](https://www.linkedin.com/in/YourProfileOrPostLink)
+🎥 ## YouTube Video
+
+▶ ## Watch here: https://www.youtube.com/watch?v=Nbda3lVtRro
+
+🔗 ## LinkedIn Post
+
+📌 I’ve also shared this session and key takeaways on LinkedIn:
+▶ View post: LinkedIn – https://www.linkedin.com/feed/update/urn:li:ugcPost:7424541947278737408/
+
 
 If you’re learning networking or cybersecurity too, feel free to explore, connect, or share feedback — I’d love to grow together🚀.
 
