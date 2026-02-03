@@ -31,3 +31,6 @@ This repository includes short video walkthroughs where I explain each topic fro
   
 YouTube — CyberWithRoshni
 Link: https://www.youtube.com/@Roshni-in-cyber
+
+## 📂 Networking Fundamentals
+- 📄 [OSI Model — Learning Log](networking-fundamentals/OSI-Model-Learning-Log.md)
