@@ -162,6 +162,6 @@ This learning log includes a short video walkthrough where I explain the Tcp/Ip 
 ▶ Watch here: (https://www.youtube.com/watch?v=F-CezuV4pOg)
 
 ## 🔗 LinkedIn Post
-📌 I’ve also shared this session and key takeaways on LinkedIn: ▶ View post: LinkedIn – 
+📌 I’ve also shared this session and key takeaways on LinkedIn: ▶ View post: LinkedIn – https://www.linkedin.com/feed/update/urn:li:activity:7426353954478977024/?originTrackingId=Axs10hJQFpDUhl8JoypDtA%3D%3D
 
 If you’re learning networking or cybersecurity too, feel free to explore, connect, or share feedback — I’d love to grow together🚀.
