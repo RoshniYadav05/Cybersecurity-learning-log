@@ -34,4 +34,4 @@ Link: https://www.youtube.com/@Roshni-in-cyber
 
 ## 📂 Networking Fundamentals
 - 📄 [OSI Model — Learning Log](networking-fundamentals/OSI-Model-Learning-Log.md)
-- 📄 [TCP/IP Model - Learning Log](networking-fundamentals/TCP-IP-Model Explained.md)
+- 📄 [TCP/IP Model - Learning Log](networking-fundamentals/TCP-IP-Model-Explained.md)
