@@ -279,9 +279,9 @@ This session helped me move from basic definitions to actual calculations and re
 This learning log includes a short video walkthrough where I explain the IP Addresses in my own words and connect it to real-world networking and security concepts.
 
 ## 🎥 YouTube Video
-▶ Watch here: ()
+▶ Watch here: (https://www.youtube.com/watch?v=UgGPrYfV9_E)
 
 ## 🔗 LinkedIn Post
-📌 I’ve also shared this session and key takeaways on LinkedIn: ▶ View post: LinkedIn – 
+📌 I’ve also shared this session and key takeaways on LinkedIn: ▶ View post: LinkedIn – https://www.linkedin.com/feed/update/urn:li:activity:7430611033871982592/?originTrackingId=AdfBRyIJpuMiqXHI9hVp6A%3D%3D
 
 If you’re learning networking or cybersecurity too, feel free to explore, connect, or share feedback — I’d love to grow together🚀.
