@@ -207,7 +207,7 @@ Fragments are reassembled.
 All routing intelligence depends on header information.
 
 ## 🔗 Learning Resources & Links
-This learning log includes a short video walkthrough where I explain the IP Addresses in my own words and connect it to real-world networking and security concepts.
+This learning log includes a short video walkthrough where I explain the IPv4 Header in my own words and connect it to real-world networking and security concepts.
 
 ## 🎥 YouTube Video
 ▶ Watch here: (https://youtu.be/j8VdbKhLU-o)
