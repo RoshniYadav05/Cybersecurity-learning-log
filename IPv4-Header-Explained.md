@@ -213,5 +213,6 @@ This learning log includes a short video walkthrough where I explain the IPv4 He
 ▶ Watch here: (https://youtu.be/j8VdbKhLU-o)
 
 ## 🔗 LinkedIn Post
-📌 I’ve also shared this session and key takeaways on LinkedIn: ▶ View post: LinkedIn – 
+📌 I’ve also shared this session and key takeaways on LinkedIn: ▶ View post: LinkedIn – https://www.linkedin.com/feed/update/urn:li:activity:7433450786472214528/?originTrackingId=8dXDcSOH5KbhG2habeX4%2FA%3D%3D
+
 If you’re learning networking or cybersecurity too, feel free to explore, connect, or share feedback — I’d love to grow together🚀.
