@@ -195,6 +195,6 @@ This learning log includes a short video walkthrough where I explain the MAC Add
 ▶ Watch here: (https://youtu.be/kf0baEWCMj0)
 
 ## 🔗 LinkedIn Post
-📌 I’ve also shared this session and key takeaways on LinkedIn: ▶ View post: LinkedIn – 
+📌 I’ve also shared this session and key takeaways on LinkedIn: ▶ View post: LinkedIn – https://www.linkedin.com/feed/update/urn:li:activity:7440029620839817216/?originTrackingId=LYxb%2FwMAqk6OFqWeyK9t8A%3D%3D
 
 If you’re learning networking or cybersecurity too, feel free to explore, connect, or share feedback — I’d love to grow together🚀.
