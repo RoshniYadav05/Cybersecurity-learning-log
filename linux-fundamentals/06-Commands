@@ -1,0 +1,652 @@
+# Network Troubleshooting & Reconnaissance Commands
+
+## Overview
+
+Network troubleshooting and reconnaissance commands are essential tools for Network Engineers, System Administrators, SOC Analysts, and Cybersecurity Professionals. These commands help diagnose connectivity issues, gather network information, identify active hosts, inspect DNS records, monitor network interfaces, and troubleshoot communication problems.
+
+Understanding these commands is crucial for both defensive and offensive security operations.
+
+---
+
+# 1. Ping
+
+## Purpose
+The `ping` command is used to test connectivity between your device and another host on a network.
+
+It sends ICMP (Internet Control Message Protocol) Echo Request packets and waits for Echo Reply packets.
+
+## Syntax
+
+```bash
+ping <IP_Address>
+ping <Domain_Name>
+```
+
+## Example
+
+```bash
+ping 8.8.8.8
+ping google.com
+```
+
+## What It Does
+
+- Checks whether a host is reachable.
+- Measures network latency.
+- Verifies basic network connectivity.
+- Helps identify packet loss.
+
+## Use Cases
+
+- Testing internet connectivity.
+- Verifying server availability.
+- Diagnosing network communication issues.
+
+---
+
+# 2. Netstat
+
+## Purpose
+
+`netstat` (Network Statistics) displays active network connections, listening ports, routing tables, and protocol statistics.
+
+## Syntax
+
+```bash
+netstat
+```
+
+## Common Examples
+
+```bash
+netstat -ano
+netstat -an
+netstat -r
+```
+
+## What It Shows
+
+- Active TCP connections
+- Active UDP connections
+- Listening ports
+- Routing information
+- Interface statistics
+
+## Use Cases
+
+- Identifying open ports.
+- Monitoring active connections.
+- Detecting suspicious network activity.
+- Troubleshooting network issues.
+
+---
+
+# 3. Tracert / Traceroute
+
+## Purpose
+
+`tracert` (Windows) or `traceroute` (Linux) displays the path packets take from your system to the destination host.
+
+## Syntax
+
+### Windows
+
+```cmd
+tracert google.com
+```
+
+### Linux
+
+```bash
+traceroute google.com
+```
+
+## What It Does
+
+- Displays every router (hop) between source and destination.
+- Measures latency at each hop.
+- Helps locate where network delays occur.
+
+## Use Cases
+
+- Diagnosing routing issues.
+- Finding network bottlenecks.
+- Identifying packet drop locations.
+
+---
+
+# 4. PathPing
+
+## Purpose
+
+`pathping` combines the functionality of Ping and Tracert.
+
+## Syntax
+
+```cmd
+pathping google.com
+```
+
+## What It Does
+
+- Traces the route.
+- Calculates packet loss at each hop.
+- Provides detailed network performance information.
+
+## Benefits
+
+- More detailed than ping.
+- More analytical than tracert.
+- Useful for identifying unstable network paths.
+
+---
+
+# 5. Route
+
+## Purpose
+
+The `route` command displays and manages routing tables.
+
+## Syntax
+
+```bash
+route print
+```
+
+or
+
+```bash
+route
+```
+
+## What It Does
+
+- Displays routing information.
+- Shows how packets are forwarded.
+- Helps troubleshoot routing problems.
+
+## Common Uses
+
+- Viewing routes.
+- Adding routes.
+- Deleting routes.
+- Modifying network paths.
+
+---
+
+# 6. NSLookup
+
+## Purpose
+
+`nslookup` is used to query DNS servers and obtain domain-related information.
+
+## Syntax
+
+```bash
+nslookup google.com
+```
+
+## What It Returns
+
+- Domain IP address
+- DNS records
+- DNS server information
+
+## Use Cases
+
+- DNS troubleshooting.
+- Verifying DNS records.
+- Investigating domain mappings.
+
+## Why It Matters
+
+DNS translates domain names into IP addresses so systems can communicate over networks.
+
+---
+
+# 7. Telnet
+
+## Purpose
+
+`telnet` is commonly used to test connectivity to a specific port on a remote host.
+
+## Syntax
+
+```bash
+telnet google.com 80
+```
+
+## What It Does
+
+- Attempts a TCP connection.
+- Checks whether a service is reachable.
+- Tests application-layer connectivity.
+
+## Common Ports Tested
+
+| Service | Port |
+|----------|--------|
+| HTTP | 80 |
+| HTTPS | 443 |
+| SMTP | 25 |
+| FTP | 21 |
+
+## Use Cases
+
+- Testing web servers.
+- Verifying open ports.
+- Troubleshooting service availability.
+
+---
+
+# 8. Hostname
+
+## Purpose
+
+Displays the name of the current system.
+
+## Syntax
+
+```bash
+hostname
+```
+
+## What It Does
+
+Returns the computer or device hostname configured on the operating system.
+
+## Example Output
+
+```bash
+DESKTOP-ABC123
+```
+
+## Use Cases
+
+- Device identification.
+- Asset management.
+- Network inventory.
+
+---
+
+# 9. IP Command
+
+## Purpose
+
+The `ip` command is a modern Linux networking utility used for inspecting and configuring network interfaces.
+
+## Syntax
+
+```bash
+ip address
+```
+
+or
+
+```bash
+ip addr
+```
+
+## What It Displays
+
+- IP addresses
+- Interface details
+- Network configuration
+
+## Advantages
+
+- Modern replacement for older tools.
+- Consistent and powerful networking management utility.
+
+---
+
+# 10. iwconfig
+
+## Purpose
+
+Used for configuring and managing wireless network interfaces in Linux.
+
+## Syntax
+
+```bash
+iwconfig
+```
+
+## What It Shows
+
+- Wireless adapter information
+- SSID
+- Signal strength
+- Wireless mode
+- Frequency
+
+## Use Cases
+
+- Wireless troubleshooting.
+- Wi-Fi configuration.
+- Signal monitoring.
+
+---
+
+# 11. ss (Socket Statistics)
+
+## Purpose
+
+`ss` is a modern replacement for netstat and provides detailed socket information.
+
+## Syntax
+
+```bash
+ss
+```
+
+## Common Examples
+
+```bash
+ss -t
+ss -u
+ss -l
+ss -a
+```
+
+## What It Displays
+
+- TCP sockets
+- UDP sockets
+- Listening services
+- Active network connections
+
+## Benefits
+
+- Faster than netstat.
+- More detailed output.
+- Better performance on large systems.
+
+---
+
+# 12. dig
+
+## Purpose
+
+`dig` (Domain Information Groper) is an advanced DNS lookup utility.
+
+## Syntax
+
+```bash
+dig google.com
+```
+
+## What It Provides
+
+- DNS records
+- Authoritative DNS servers
+- Query time
+- Response details
+- Name server information
+
+## Common DNS Records
+
+- A Record
+- AAAA Record
+- MX Record
+- TXT Record
+- CNAME Record
+
+## Use Cases
+
+- DNS investigations.
+- Security assessments.
+- DNS troubleshooting.
+
+---
+
+# 13. WHOIS
+
+## Purpose
+
+Provides detailed information about domain registration.
+
+## Syntax
+
+```bash
+whois google.com
+```
+
+## Information Returned
+
+- Domain owner
+- Registrar
+- Registration date
+- Expiration date
+- Name servers
+- Administrative contacts
+
+## Use Cases
+
+- Domain investigations.
+- Threat intelligence.
+- OSINT activities.
+
+---
+
+# 14. Netcat (nc)
+
+## Purpose
+
+Netcat is known as the "Swiss Army Knife of Networking."
+
+## Syntax
+
+```bash
+nc google.com 80
+```
+
+## Capabilities
+
+- Port scanning
+- Banner grabbing
+- File transfers
+- TCP communication
+- UDP communication
+- Listener creation
+
+## Common Example
+
+```bash
+nc -lvnp 4444
+```
+
+## Use Cases
+
+- Penetration testing.
+- Service testing.
+- Network troubleshooting.
+
+---
+
+# 15. ARP
+
+## Purpose
+
+ARP (Address Resolution Protocol) command is used to view and manage the ARP cache.
+
+## Syntax
+
+```bash
+arp -a
+```
+
+## What It Displays
+
+- IP addresses
+- Corresponding MAC addresses
+- ARP table entries
+
+## Why It Matters
+
+ARP maps Layer 3 IP addresses to Layer 2 MAC addresses.
+
+## Use Cases
+
+- Identifying devices on a network.
+- Troubleshooting communication issues.
+- Investigating ARP-related attacks.
+
+---
+
+# 16. ifplugstatus
+
+## Purpose
+
+Checks whether a network cable is physically connected to a network interface.
+
+## Syntax
+
+```bash
+ifplugstatus
+```
+
+## What It Shows
+
+- Link detected
+- Link not detected
+- Interface status
+
+## Use Cases
+
+- Troubleshooting physical connectivity.
+- Diagnosing cable issues.
+
+---
+
+# 17. cURL
+
+## Purpose
+
+cURL is a command-line tool used for transferring data and interacting with APIs.
+
+## Syntax
+
+```bash
+curl -X GET https://example.com/api
+```
+
+## Common HTTP Methods
+
+```bash
+curl -X GET
+curl -X POST
+curl -X PUT
+curl -X DELETE
+```
+
+## What It Does
+
+- Calls API endpoints.
+- Sends HTTP requests.
+- Downloads content.
+- Tests web services.
+
+## Use Cases
+
+- API testing.
+- Automation.
+- Web application troubleshooting.
+
+---
+
+# 18. Wget
+
+## Purpose
+
+`wget` is used to download files directly from the internet.
+
+## Syntax
+
+```bash
+wget https://example.com/file.zip
+```
+
+## What It Does
+
+- Downloads files.
+- Supports resuming downloads.
+- Works without a browser.
+
+## Use Cases
+
+- Downloading tools.
+- Fetching scripts.
+- Automated downloads.
+
+---
+
+# 19. watch
+
+## Purpose
+
+`watch` repeatedly executes a command and displays updated output.
+
+## Syntax
+
+```bash
+watch <command>
+```
+
+## Example
+
+```bash
+watch netstat
+```
+
+or
+
+```bash
+watch -n 5 top
+```
+
+## What It Does
+
+- Refreshes command output automatically.
+- Monitors changing values in real time.
+
+## Use Cases
+
+- Monitoring processes.
+- Watching network connections.
+- Tracking system performance.
+
+---
+
+# 20. Nmap
+
+## Purpose
+
+Nmap (Network Mapper) is one of the most powerful network discovery and security auditing tools.
+
+## Syntax
+
+```bash
+nmap <target>
+```
+
+## Example
+
+```bash
+nmap 192.168.1.1
+```
+
+## Features
+
+- Host discovery
+- Port scanning
+- Service detection
+- OS fingerprinting
+- Network mapping
+
+## Use Cases
+
+- Asset discovery.
+- Vulnerability assessments.
+- Security auditing.
+- Network reconnaissance.
