@@ -464,22 +464,6 @@ Source IP = 10.0.0.1
 Destination IP = 20.0.0.1
 ```
 
----
-
-# Important Interview Point
-
-At every router hop:
-
-### MAC Address Changes
-
-✔ Yes
-
-### IP Address Changes
-
-❌ No (normally)
-
----
-
 # Proxy ARP
 
 Proxy ARP allows a router or another device to answer ARP requests on behalf of another host.
@@ -618,60 +602,6 @@ Neighbor Discovery Protocol (NDP)
 ```
 
 which works through ICMPv6.
-
----
-
-# Quick Interview Questions
-
-### What does ARP do?
-
-Maps IP Address to MAC Address.
-
----
-
-### Is ARP Request Broadcast or Unicast?
-
-Broadcast.
-
----
-
-### Is ARP Reply Broadcast or Unicast?
-
-Unicast.
-
----
-
-### Which MAC address is used in ARP Request?
-
-```text
-FF:FF:FF:FF:FF:FF
-```
-
----
-
-### Which protocol replaces ARP in IPv6?
-
-NDP (Neighbor Discovery Protocol).
-
----
-
-### What is Gratuitous ARP?
-
-A device sends ARP for its own IP address.
-
----
-
-### What is Proxy ARP?
-
-A router replies to ARP requests on behalf of another host.
-
----
-
-### What is Reverse ARP?
-
-Used to obtain an IP address from a known MAC address.
-
----
 
 # Key Takeaways
 
