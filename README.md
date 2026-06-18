@@ -30,11 +30,4 @@ This repository helps me stay accountable, track my progress, and connect with o
 This repository includes short video walkthroughs where I explain each topic from Networking, Cybersecurity, tools and labs.
   
 YouTube — CyberWithRoshni
-Link: https://www.youtube.com/@Roshni-in-cyber
-
-## 📂 Networking Fundamentals
-- 📄 [OSI Model — Learning Log](networking-fundamentals/OSI-Model-Learning-Log.md)
-- 📄 [TCP/IP Model - Learning Log](networking-fundamentals/TCP-IP-Model-Explained.md)
-- 📄 [IP Adresses- Learning Log](networking-fundamentals/IP-Addresses-Explained.md)
-- 📄 [IPv4 Header Learning Log](networking-fundamentals/IPv4-Header-Explained.md)
-- 📄 [MAC Addresses Learning Log](networking-fundamentals/MAC-Addresses-Explained.md)                               
+Link: https://www.youtube.com/@Roshni-in-cyber                            
